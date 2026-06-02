@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Save Selected Text",
+  "version": "2.1",
+  "description": "Save selected text with optional annotation to fresh/ folder.",
+  "permissions": ["contextMenus", "downloads", "notifications", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
